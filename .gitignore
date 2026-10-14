@@ -18,9 +18,24 @@ dist-ssr
 .env.*.local
 !.env.example
 
-# Large Database Binary Cache
+# Large Database Binary Cache & SQLite files
 *.bin
+*.db
 .questions_db_cache.bin
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Question Datasets & Raw Data Archives
+jee_advanced_pyqs_data/
+jee_mains_pyqs_data/
+mhtcet_pyqs_data/
+neet_pyqs_data/
+*_pyqs_data/
+*.json.gz
+public/data/
 
 # Editor directories and files
 .vscode/*
