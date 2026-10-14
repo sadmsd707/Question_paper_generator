@@ -201,8 +201,7 @@ The backend server exposes the following REST API endpoints under `/api`:
 | `GET` | `/api/user-questions` | List custom user-created questions |
 | `POST` | `/api/user-questions` | Create a new custom question |
 
----
+## 🔒 Copyright & Ownership
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+Copyright © 2026 Shivraj Deshmukh. All Rights Reserved.  
+This project is proprietary software developed by Shivraj Deshmukh. Unauthorized copying, distribution, or commercial use is strictly prohibited.
